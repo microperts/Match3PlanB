@@ -776,7 +776,7 @@ namespace SweetSugar.Scripts
                 if (item != null)
                 {
                     item.anim.SetBool("package_idle", false);
-                    item.anim.SetTrigger("tip");
+                    //item.anim.SetTrigger("tip");
                 }
             }
             yield return new WaitForSeconds(0);

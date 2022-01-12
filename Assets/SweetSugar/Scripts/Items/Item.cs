@@ -1234,12 +1234,12 @@ namespace SweetSugar.Scripts.Items
             {
                 PlayDestroyAnimation("destroy");
                 // HideSprites(true);
-                var partcl2 = ObjectPooler.Instance.GetPooledObject("FireworkSplash", this);
+                /*var partcl2 = ObjectPooler.Instance.GetPooledObject("FireworkSplash", this);
                 if (partcl2 != null)
                 {
                     partcl2.transform.position = transform.position;
                     partcl2.GetComponent<SplashParticles>().SetColor(color);
-                }
+                }*/
             }
 
             if (LevelManager.THIS.levelData.limitType == LIMIT.TIME && plusTimeObj)

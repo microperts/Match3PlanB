@@ -545,8 +545,6 @@ namespace SweetSugar.Scripts.Blocks
                         LevelManager.THIS.levelData.limit += 2;
                         Debug.Log("5 match");
                         break;
-                    default:
-                        throw new ArgumentOutOfRangeException(nameof(itemType), itemType, null);
                 }
             }
             if (item == null)
